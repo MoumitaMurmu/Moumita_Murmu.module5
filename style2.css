@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(nature.jpg);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 20px;
+}
+.card-image{
+   
+    height: 180px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.Ecom{
+    background-image: url('Ecommerce.jpg');
+}
+.coding{
+    background-image: url('coding.jpg');
+}
+.medical{
+    background-image: url('Medical.jpg');
+}
+.education{
+    background-image: url('Education.jpg');
+}
+.card h2{
+    padding: 4px;
+}
+.card p{
+    padding: 4px;
+}
+.card a{
+    background-color: black;
+    color:white;
+    padding: 10px 10px;
+    display: block;
+    text-align: center;
+    text-decoration: solid;
+} 
+
+.container .card:hover{
+    visibility: visible;
+    opacity: 3;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
+.card a:hover{
+    background-color: yellow;
+    color: black;
+} 
+
